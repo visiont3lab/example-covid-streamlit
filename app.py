@@ -11,7 +11,7 @@ fig3 = px.area(df,x="data", y=["variazione_totale_positivi"], title="Variazione 
 fig4 = px.line(df,x="data", y=["totale_positivi","dimessi_guariti","deceduti","totale_casi"], title="Covid19 Status")
 
 st.title("Covid19 Dashboard")
-st.dataframe(df)
+#st.dataframe(df)
 st.plotly_chart(fig1)
 st.plotly_chart(fig2)
 st.plotly_chart(fig3)
